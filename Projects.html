@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Altoria's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="PlantKitty.png" class="bounce-img" alt="Altoria's Avatar">
+        <h1 class="floating-text">Projects & Certs </h1>
+
+    </header>
+    <nav>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume & Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="projects-section">
+            <h2>Featured Project</h2>
+        
+            <div class="project-card">
+                <img src="thumbb.png" alt="Hungry Clownfish Game Thumbnail" class="project-thumbnail">
+                <h3>Hungry Clownfish</h3>
+                <p>
+                    A colorful 2D game made with Python and Pygame. Guide a hungry clownfish through an underwater world—collecting balls to earn points and avoiding bombs to survive. Includes background music, sound effects, and vibrant custom graphics.
+                </p>
+                <a href="https://github.com/YUZUUZA/vigilant-barnacle/tree/main" target="_blank">View on GitHub</a>
+            </div>
+        </section>
+
+        <section class="certifications-section">
+            <h2>Certifications & Education</h2>
+        
+            <div class="cert-card">
+                <h3>Associate Degree - Computer Technology</h3>
+                <p>Concentration: Network Systems Management</p>
+            </div>
+        
+            <div class="cert-card">
+                <h3>Web Applications and Programming</h3>
+                <p>Coursework in front-end development, programming fundamentals, and web design principles.</p>
+            </div>
+        
+            <div class="cert-card">
+                <h3>Python Essentials 1</h3>
+                <p>Issued by Cisco · October 2024<br>Introductory programming concepts using Python, including data types, functions, and control flow.</p>
+            </div>
+        
+            <div class="cert-card">
+                <h3>IT Essentials: PC Hardware and Software</h3>
+                <p>Issued by Cisco Networking Academy · July 2024<br>Covered PC assembly, operating systems, troubleshooting, and basic networking concepts.</p>
+            </div>
+        
+            <div class="cert-card">
+                <h3>CCNAv7: Introduction to Networks</h3>
+                <p>Issued by Cisco · May 2024<br>Foundational networking course introducing architecture, protocols, and network security concepts.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Altoria Beecher. All Rights Reserved.</p>
+        <p><a href="mailto:altoria.beecher1@student.fdtc.edu">altoria.beecher1@student.fdtc.edu</a></p>
+        <div class="social-links">
+            <a href="https://github.com/yourgithub" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+    
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+    
+</body>
+
+</html>

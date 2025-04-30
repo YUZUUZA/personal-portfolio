@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Altoria's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="PlantKitty.png" class="bounce-img" alt="Altoria's Avatar">
+        <h1 class="floating-text">About Me</h1>
+
+    </header>
+    <nav>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Aboutme.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume & Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Introduction Section -->
+        <section class="about-intro">
+            <h2>Hi, I'm Altoria!</h2>
+            <p>
+                Hi, I'm Altoria Beecher, a tech enthusiast with a focus on both back-end and front-end design. I enjoy working with data to find insights and creating clean, functional websites with CSS. Outside of coding, reading is one of my favorite pastimes, and I also share my book-related content on BookTok, where I've gained over 70K likes. I'm passionate about blending creativity with technical skills to build engaging and practical experiences
+            </p>
+        </section>
+
+        <!-- Skills & Interests -->
+<section class="interests">
+    <h2>My Interests</h2>
+    <div class="interests-grid">
+        <div class="interest-card">
+            <img src="Mail4.png" alt="Game Dev Icon">
+            <p>Gaming</p>
+        </div>
+        <div class="interest-card">
+            <img src="Book1.png" alt="Books Icon">
+            <p>Literature & Reading</p>
+        </div>
+        <div class="interest-card">
+            <img src="Monitor3.png" alt="Genshin Icon">
+            <p>Creative Design</p>
+        </div>
+        <div class="interest-card">
+            <img src="Mail4.png" alt="Custom Icon">
+            <p>Personal Projects</p>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Fun Fact Section -->
+        <section class="fun-fact">
+            <h2>Fun Fact!</h2>
+            <p>
+                I'm a big fan of retro styles, whether it's in gaming, design, or tech. There's something about that vintage look that always feels timeless!
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Altoria Beecher. All Rights Reserved.</p>
+        <p><a href="mailto:altoria.beecher1@student.fdtc.edu">altoria.beecher1@student.fdtc.edu</a></p>
+        <div class="social-links">
+            <a href="https://github.com/yourgithub" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/yourlinkedin" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+    
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altoria's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="PlantKitty.png" class="bounce-img" alt="Altoria's Avatar">
+        <h1 class="floating-text">Altoria Beecher</h1>
+
+    </header>
+
+    <nav>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Aboutme.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume & Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+            <!-- Hero Section (Intro) -->
+            <section class="hero">
+                <h2>Welcome to My Portfolio!</h2>
+                <p>I'm passionate about technology, coding, and game development. Explore my projects and skills below.</p>
+                <a href="projects.html" class="custom-btn">Explore My Work</a>
+            </section>
+        
+                <!-- Skills Section -->
+                <section class="skills">
+                    <h2>Skills & Technologies</h2>
+                    <div class="skills-list">
+                        <div class="skill">
+                            <img src="Note4a.png" alt="HTML Icon">
+                            <p>HTML</p>
+                        </div>
+                        <div class="skill">
+                            <img src="Note4b.png" alt="CSS Icon">
+                            <p>CSS</p>
+                        </div>
+                        <div class="skill">
+                            <img src="Note4c.png" alt="Java Icon">
+                            <p>Java</p>
+                        </div>
+                        <div class="skill">
+                            <img src="Note4d.png" alt="Python Icon">
+                            <p>Python</p>
+                        </div>
+                        <div class="skill">
+                            <img src="Monitor1.png" alt="SQL Icon">
+                            <p>SQL</p>
+                        </div>
+                    </div>
+                </section>
+        
+                <!-- What I'm Learning Section -->
+                <section class="learning">
+                    <h2>What I'm Learning</h2>
+                        <ul>
+                            <li>Currently improving my skills in <strong>data analysis</strong> and <strong>SQL</strong>.</li>
+                            <li>Exploring <strong>front-end design</strong> with <strong>CSS & HTML</strong> to enhance user experience.</li>
+                            <li>Building small projects to apply what I'm learning in real-world scenarios.</li>
+                        </ul>
+                </section>
+            </main>
+        
+        
+
+
+    <footer>
+        <p>&copy; 2025 Altoria Beecher. All Rights Reserved.</p>
+        <p><a href="mailto:altoria.beecher1@student.fdtc.edu">altoria.beecher1@student.fdtc.edu</a></p>
+        <div class="social-links">
+            <a href="https://github.com/yourgithub" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/altoria-beecher-86200a33a/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+    
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+    
+</body>
+
+</html>
